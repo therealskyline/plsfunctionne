@@ -1,0 +1,64 @@
+                <!-- Seasons Tabs -->
+                <div class="seasons-container">
+            <!-- Saisons normales -->
+            <div class="seasons-section">
+                <h4 class="section-title">Saisons</h4>
+                <div class="seasons-grid">
+                    {% for season in anime.seasons %}
+                        {% if season.season_number != 99 and not 'Kai' in season.name %}
+                        <div class="season-tab" data-season="{{ season.season_number }}">
+                            {% if season.name %}
+                                {{ season.name }}
+                            {% else %}
+                                Saison {{ season.season_number }}
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Films -->
+            {% set has_films = false %}
+            {% for season in anime.seasons %}
+                {% if season.season_number == 99 %}
+                    {% set has_films = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_films %}
+            <div class="seasons-section">
+                <h4 class="section-title">Films</h4>
+                <div class="seasons-grid">
+                    {% for season in anime.seasons %}
+                        {% if season.season_number == 99 %}
+                        <div class="season-tab" data-season="{{ season.season_number }}">
+                            Films
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Saisons Kai -->
+            {% set has_kai = false %}
+            {% for season in anime.seasons %}
+                {% if 'Kai' in season.name %}
+                    {% set has_kai = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_kai %}
+            <div class="seasons-section">
+                <h4 class="section-title">Version Kai</h4>
+                <div class="seasons-grid">
+                    {% for season in anime.seasons %}
+                        {% if 'Kai' in season.name %}
+                        <div class="season-tab" data-season="{{ season.season_number }}">
+                            {{ season.name }}
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+      </div>
