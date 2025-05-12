@@ -1,0 +1,187 @@
+INFO:app:One Piece a été mis à jour dans la base de données (ID: 83, anime_id: 83)
+INFO:app:Anime populaire préchargé: Naruto (ID: 8)
+INFO:app:Anime populaire préchargé: Dragon Ball (ID: 3)
+INFO:app:Anime populaire préchargé: Death Note (ID: 5)
+INFO:app:Anime populaire préchargé: My Hero Academia (ID: 6)
+INFO:app:Anime populaire préchargé: Hunter x Hunter (ID: 7)
+INFO:app:Anime populaire préchargé: Demon Slayer (ID: 4)
+INFO:app:Anime populaire préchargé: Mashle (ID: 2)
+INFO:app:Anime populaire préchargé: Fairy Tail (ID: 9)
+INFO:app:Anime populaire préchargé: Sword Art Online (ID: 10)
+INFO:app:Anime populaire préchargé: Jujutsu Kaisen (ID: 11)
+INFO:app:Préchargement terminé. 11 animes populaires trouvés.
+INFO:app:Animes populaires préchargés avec succès
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.201.243.6:10000
+INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:38:50] "HEAD / HTTP/1.1" 302 -
+==> Your service is live 🎉
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:01] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:08] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:08] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:09] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:app:User silyan logged in successfully
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:20] "POST /login HTTP/1.1" 302 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Chargement du fichier data_discover.json depuis: /opt/render/project/src/data_discover.json
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Données chargées (format liste): 5 animes trouvés
+INFO:app:ID d'anime mis à jour: One Punch Man -> id:77, anime_id:77
+INFO:app:ID d'anime mis à jour: Demon Slayer -> id:4, anime_id:4
+INFO:app:ID d'anime mis à jour: Jujutsu Kaisen -> id:11, anime_id:11
+INFO:app:ID d'anime mis à jour: Dragon Ball -> id:3, anime_id:3
+INFO:app:Animes de découverte chargés: 4 trouvés
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:21] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:21] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:21] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:26] "GET /anime/77 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:27] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:27] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Récupération des URLs vidéo pour l'anime One Punch man, saison 1, épisode 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:app:Tentatives de recherche pour l'anime: ['One Punch man', 'One Punch man']
+DEBUG:httpcore.connection:connect_tcp.started host='anime-sama.fr' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b1532c0d0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x7c0b15fe9880> server_hostname='anime-sama.fr' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b1769d290>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Sat, 10 May 2025 11:39:30 GMT'), (b'Content-Type', b'text/html; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close'), (b'accept-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cf-mitigated', b'challenge'), (b'critical-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cross-origin-embedder-policy', b'require-corp'), (b'cross-origin-opener-policy', b'same-origin'), (b'cross-origin-resource-policy', b'same-origin'), (b'origin-agent-cluster', b'?1'), (b'permissions-policy', b'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()'), (b'referrer-policy', b'same-origin'), (b'server-timing', b'chlray;desc="93d9280a78503eba"'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'SAMEORIGIN'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0'), (b'Expires', b'Thu, 01 Jan 1970 00:00:01 GMT'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=EqySYjYQzZDJIvHDl%2FuL6CHR0ojshmvec4tZWpOBrL%2Bql9M6%2F1oa6%2BKyTA76ebrZZnwg5Fnybht0G9xHLqqq%2FGv2onTSa32m8jzt958h%2F%2FtofLPQPtJJxp9cgyjVemM%3D"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Vary', b'Accept-Encoding'), (b'speculation-rules', b'"/cdn-cgi/speculation"'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93d9280a78503eba-FRA'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1458&min_rtt=1259&rtt_var=614&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2847&recv_bytes=795&delivery_rate=2300238&cwnd=250&unsent_bytes=0&cid=7865d0313a687764&ts=13&x=0"')])
+INFO:httpx:HTTP Request: GET https://anime-sama.fr/catalogue/?search=One%20Punch%20man "HTTP/1.1 403 Forbidden"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+ERROR:app:Erreur lors de la récupération des URLs vidéo: Client error '403 Forbidden' for url 'https://anime-sama.fr/catalogue/?search=One%20Punch%20man'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+INFO:app:Utilisation de l'URL de secours pour l'épisode: 
+WARNING:app:URL de vidéo non trouvée pour anime 77, saison 1, épisode 2
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:30] "GET /player/77/1/2 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:30] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:30] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Rafraîchissement des sources pour One Punch man S1E1 (dernière mise à jour il y a plus de 24h)
+INFO:app:Récupération des URLs vidéo pour l'anime One Punch man, saison 1, épisode 1
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:app:Tentatives de recherche pour l'anime: ['One Punch man', 'One Punch man']
+DEBUG:httpcore.connection:connect_tcp.started host='anime-sama.fr' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b15d50cd0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x7c0b1638d760> server_hostname='anime-sama.fr' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b15d50d10>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Sat, 10 May 2025 11:39:35 GMT'), (b'Content-Type', b'text/html; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close'), (b'accept-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cf-mitigated', b'challenge'), (b'critical-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cross-origin-embedder-policy', b'require-corp'), (b'cross-origin-opener-policy', b'same-origin'), (b'cross-origin-resource-policy', b'same-origin'), (b'origin-agent-cluster', b'?1'), (b'permissions-policy', b'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()'), (b'referrer-policy', b'same-origin'), (b'server-timing', b'chlray;desc="93d9282afe689137"'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'SAMEORIGIN'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0'), (b'Expires', b'Thu, 01 Jan 1970 00:00:01 GMT'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=%2B%2FJnz0216G8n2tx1pzim6E7SjgZ0vRvo1XtcC0Gx%2B2Iv3o58KsoY4zzffari0l4oZ%2BwJA9qzR0KTTO91WPo5MfBtVWkqhqnK0UvXF3ETeiU%2FXSqKWzUIsmM%2F9I6qifY%3D"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Vary', b'Accept-Encoding'), (b'speculation-rules', b'"/cdn-cgi/speculation"'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93d9282afe689137-FRA'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1468&min_rtt=1239&rtt_var=628&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2847&recv_bytes=795&delivery_rate=2337368&cwnd=251&unsent_bytes=0&cid=7d3a588395f238fb&ts=22&x=0"')])
+INFO:httpx:HTTP Request: GET https://anime-sama.fr/catalogue/?search=One%20Punch%20man "HTTP/1.1 403 Forbidden"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+ERROR:app:Erreur lors de la récupération des URLs vidéo: Client error '403 Forbidden' for url 'https://anime-sama.fr/catalogue/?search=One%20Punch%20man'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+WARNING:app:Vidmoly détecté, utilisation directe: https://vidmoly.to/embed-2g8pirxv4rye.html
+DEBUG:app:Generated download URL: https://vidmoly.to/embed-2g8pirxv4rye.html
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:35] "GET /player/77/1/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:35] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:35] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:36] "POST /save-progress HTTP/1.1" 200 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Récupération des URLs vidéo pour l'anime One Punch man, saison 1, épisode 11
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:app:Tentatives de recherche pour l'anime: ['One Punch man', 'One Punch man']
+DEBUG:httpcore.connection:connect_tcp.started host='anime-sama.fr' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b15384150>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x7c0b15febf50> server_hostname='anime-sama.fr' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b15d7ba10>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Sat, 10 May 2025 11:39:40 GMT'), (b'Content-Type', b'text/html; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close'), (b'accept-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cf-mitigated', b'challenge'), (b'critical-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cross-origin-embedder-policy', b'require-corp'), (b'cross-origin-opener-policy', b'same-origin'), (b'cross-origin-resource-policy', b'same-origin'), (b'origin-agent-cluster', b'?1'), (b'permissions-policy', b'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()'), (b'referrer-policy', b'same-origin'), (b'server-timing', b'chlray;desc="93d92847aa00d260"'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'SAMEORIGIN'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0'), (b'Expires', b'Thu, 01 Jan 1970 00:00:01 GMT'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=BudXwJIwCIkmf26woEUDit1BIojC7WTvcM%2Bm%2FRgmshBnllmbWzc2lCpQBaE%2BS6%2Ftet8p1pS3KEKKtXbkX6NTch3pp0a0CLYRA9e4ebqWAFFV11M%2B6JhPPPpZh%2FnYLiY%3D"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Vary', b'Accept-Encoding'), (b'speculation-rules', b'"/cdn-cgi/speculation"'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93d92847aa00d260-FRA'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1482&min_rtt=1387&rtt_var=588&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2846&recv_bytes=795&delivery_rate=2087959&cwnd=251&unsent_bytes=0&cid=d8c6b9855094ae82&ts=13&x=0"')])
+INFO:httpx:HTTP Request: GET https://anime-sama.fr/catalogue/?search=One%20Punch%20man "HTTP/1.1 403 Forbidden"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+ERROR:app:Erreur lors de la récupération des URLs vidéo: Client error '403 Forbidden' for url 'https://anime-sama.fr/catalogue/?search=One%20Punch%20man'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+INFO:app:Utilisation de l'URL de secours pour l'épisode: 
+WARNING:app:URL de vidéo non trouvée pour anime 77, saison 1, épisode 11
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:40] "GET /player/77/1/11 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:40] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:40] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Recherche via API pour: pokemon (limite: 20 résultats)
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:app:Recherche d'anime via l'API pour: pokemon (limite: 20)
+DEBUG:httpcore.connection:connect_tcp.started host='anime-sama.fr' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b15376a10>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x7c0b1603d490> server_hostname='anime-sama.fr' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b15376b10>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Sat, 10 May 2025 11:39:50 GMT'), (b'Content-Type', b'text/html; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close'), (b'accept-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cf-mitigated', b'challenge'), (b'critical-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cross-origin-embedder-policy', b'require-corp'), (b'cross-origin-opener-policy', b'same-origin'), (b'cross-origin-resource-policy', b'same-origin'), (b'origin-agent-cluster', b'?1'), (b'permissions-policy', b'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()'), (b'referrer-policy', b'same-origin'), (b'server-timing', b'chlray;desc="93d928889acad2e2"'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'SAMEORIGIN'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0'), (b'Expires', b'Thu, 01 Jan 1970 00:00:01 GMT'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=MhJWpFX5O6laNY4xTKQ%2FOyezjVhFmMcfhHU2WtXNrXyMzEPW5PzC5VUFxYxGQ1nGf5dvxT40EPr4ZtdoX9Ba3sFA5jDXOksk9mM6v3Zfrjychk%2B3Fde5Z%2BDn7E55C0g%3D"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Vary', b'Accept-Encoding'), (b'speculation-rules', b'"/cdn-cgi/speculation"'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93d928889acad2e2-FRA'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1790&min_rtt=1562&rtt_var=749&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2847&recv_bytes=785&delivery_rate=1854033&cwnd=250&unsent_bytes=0&cid=9f40ccf70e55c24c&ts=90&x=0"')])
+INFO:httpx:HTTP Request: GET https://anime-sama.fr/catalogue/?search=pokemon "HTTP/1.1 403 Forbidden"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+ERROR:app:Erreur lors de la recherche d'anime: Client error '403 Forbidden' for url 'https://anime-sama.fr/catalogue/?search=pokemon'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+INFO:app:Résultats de recherche: 0 animes trouvés
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:50] "GET /search?query=pokemon HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:51] "GET /static/js/main.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:51] "GET /static/css/style.css HTTP/1.1" 304 -
+INFO:app:Chargement du fichier anime.json depuis: /opt/render/project/src/static/data/anime.json
+INFO:app:Données chargées: 28 animes trouvés
+INFO:app:Récupération des saisons pour l'anime Naruto Gaiden La Spirale Au Coeur Du Tourbillon lors de la consultation
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:httpcore.connection:connect_tcp.started host='anime-sama.fr' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b160e43d0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x7c0b15fea720> server_hostname='anime-sama.fr' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7c0b153a84d0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Sat, 10 May 2025 11:39:55 GMT'), (b'Content-Type', b'text/html; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'close'), (b'accept-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cf-mitigated', b'challenge'), (b'critical-ch', b'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA'), (b'cross-origin-embedder-policy', b'require-corp'), (b'cross-origin-opener-policy', b'same-origin'), (b'cross-origin-resource-policy', b'same-origin'), (b'origin-agent-cluster', b'?1'), (b'permissions-policy', b'accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()'), (b'referrer-policy', b'same-origin'), (b'server-timing', b'chlray;desc="93d928aa68358ff4"'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'SAMEORIGIN'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0'), (b'Expires', b'Thu, 01 Jan 1970 00:00:01 GMT'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=pWfRtzcyo6eBiLD5hXtPpKfBN%2BPpLrlAkBb%2FdcOEWyQwZvgcm9K9Ln1I4jtTMT4qp8M9aUE8%2FV%2Fdq2FeViCdf6e0OPeiRWnUlMMlkUKPiWblV%2F6NpQcAal0qdpC0GjY%3D"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Vary', b'Accept-Encoding'), (b'speculation-rules', b'"/cdn-cgi/speculation"'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93d928aa68358ff4-FRA'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1107&min_rtt=1080&rtt_var=424&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2847&recv_bytes=839&delivery_rate=2681481&cwnd=248&unsent_bytes=0&cid=ead6620b9df65245&ts=20&x=0"')])
+INFO:httpx:HTTP Request: GET https://anime-sama.fr/catalogue/?search=Naruto%20Gaiden%20La%20Spirale%20Au%20Coeur%20Du%20Tourbillon "HTTP/1.1 403 Forbidden"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+ERROR:app:Erreur lors de la récupération des saisons pour Naruto Gaiden La Spirale Au Coeur Du Tourbillon: Client error '403 Forbidden' for url 'https://anime-sama.fr/catalogue/?search=Naruto%20Gaiden%20La%20Spirale%20Au%20Coeur%20Du%20Tourbillon'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:55] "GET /anime/79 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2025 11:39:56] "GET /static/css/style.css HTTP/1.1" 304 -
