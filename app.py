@@ -1346,7 +1346,7 @@ def search():
                                 other_anime_list=recent_animes)
 
         # Définir une limite de temps pour la recherche API
-        api_timeout = 30  # Augmenté pour One Piece
+        api_timeout = 60  # Augmenté pour One Piece
 
         # Nombre maximum de résultats (sans limite)
         MAX_RESULTS = 100  # Augmenté comme demandé
